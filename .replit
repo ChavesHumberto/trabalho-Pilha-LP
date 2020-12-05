@@ -1,0 +1,3 @@
+language = "csharp"
+#run = "csc /t:exe /out:main.exe main.cs pilha.cs"
+run = "mono main.exe"
