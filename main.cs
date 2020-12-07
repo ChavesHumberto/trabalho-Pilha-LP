@@ -19,16 +19,19 @@ class MainClass {
     d.name = "mate";
 
     car e = new car();
-    e.name = "velinho";
+    e.name = "velhinho";
 
     p.push(c);
     p.push(d);
     p.push(e);
     
     car x = new car();
+    
+    x = (car)p.top();
+    Console.WriteLine(x.name);
+    
     p.pop(2);
     x = (car)p.top();
-
     Console.WriteLine(x.name);
     Console.WriteLine(p.empty());
 

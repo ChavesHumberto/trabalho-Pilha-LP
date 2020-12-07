@@ -44,9 +44,4 @@ public class Pilha {
       }
     }
 
-    public void lt(){
-      foreach (int element in this.valores){
-        Console.WriteLine(element);
-      }
-    }
 }
